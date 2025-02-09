@@ -3,7 +3,7 @@ import {useSelector} from "react-redux";
 import {Color} from "./Color/Color.jsx";
 
 export const ColorList = ({ colors }) => {
-  const { colorList } = useSelector(state => state.color)
+  const { colorList } = useSelector(state => state.color);
 
   return (
     <ul className={s.colorList}>
